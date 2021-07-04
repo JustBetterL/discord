@@ -1,3 +1,11 @@
 body {
     background-color: blueviolet; 
 }
+
+.title {
+    top: 50;
+}
+
+.discord {
+    text-align: center;
+}
