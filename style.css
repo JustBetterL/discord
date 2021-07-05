@@ -1,90 +1,33 @@
 body {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    height: 100vh;
-    background: #000;
+    background-color: blueviolet; 
 }
 
-
-
-* {
-    /* padding: 0;
-    margin: 0; */
-    font-family: 'IBM Plex Sans', sans-serif;
+.title {
+    text-align: center;
 }
 
 .discord {
     text-align: center;
-    outline: 0;
-    position: absolute;
-    display: inline-block;
-    padding: 10px 40px;
-    font-size: 20px;
-    overflow: hidden;
-    cursor: pointer;
-    border: 1px solid #4b00ff;
-    background: #4b00ff;
-    color: #fff;
-    font-weight: 500;
-    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
-}
-.discord:hover {
-    background-color: #4b00ff;
-    color: #fff;
-    box-shadow: 0 0 5px #4b00ff,
-                0 0 20px rgb(75 0 255 / 0.8),
-                0 0 35px rgb(75 0 255 / 0.7),
-                0 0 50px rgb(75 0 255 / 0.6);
-    border-color: #fff;
 }
 
 .channel {
     text-align: center;
-    outline: 0;
-    /* position: relative;
-    display: inline-block;
-    padding: 10px 40px; */
-    font-size: 20px;
-    overflow: hidden;
-    cursor: pointer;
-    border: 1px solid #4b00ff;
-    background: #4b00ff;
-    color: #fff;
-    font-weight: 500;
-    /* transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out; */
-}
-.channel:hover {
-    background-color: #4b00ff;
-    color: #fff;
-    box-shadow: 0 0 5px #4b00ff,
-                0 0 20px rgb(75 0 255 / 0.8),
-                0 0 35px rgb(75 0 255 / 0.7),
-                0 0 50px rgb(75 0 255 / 0.6);
-    border-color: #fff;
 }
 
 .github {
     text-align: center;
-    outline: 0;
-    position: relative;
-    display: inline-block;
-    padding: 10px 40px;
-    font-size: 20px;
-    overflow: hidden;
-    cursor: pointer;
-    border: 1px solid #4b00ff;
-    background: #4b00ff;
-    color: #fff;
-    font-weight: 500;
-    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
 }
-.github:hover {
-    background-color: #4b00ff;
-    color: #fff;
-    box-shadow: 0 0 5px #4b00ff,
-                0 0 20px rgb(75 0 255 / 0.8),
-                0 0 35px rgb(75 0 255 / 0.7),
-                0 0 50px rgb(75 0 255 / 0.6);
-    border-color: #fff;
+
+.discord{ 
+    color: #1c5169;
+    background-color: #86dbff;
+    -webkit-transition: .3s all ease-in;
+    transition: .3s all ease-in;
+    border: 2px solid transparent;
+}
+
+.discord:hover, .discord:focus {
+    -webkit-box-shadow: 0px 0px 20px 15px #3cc6d8;
+    box-shadow: 0px 0px 30px 20px #3cc6d8;
+    background-color: #d7f3ff;
 }
