@@ -66,7 +66,7 @@ body {
     background: #4b00ff;
     color: #fff;
     font-weight: 500;
-    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+    /* transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out; */
 }
 .channel:hover {
     background-color: #4b00ff;
