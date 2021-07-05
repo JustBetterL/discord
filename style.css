@@ -1,26 +1,81 @@
-body {
-    background-color: blueviolet; 
-}
-
 .title {
     text-align: center;
 }
 
-
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body {
+    height: 100vh;
+    background: lightsalmon;
+}
 .discord {
-    font-size: 80px;
-    color: #fff;
     text-align: center;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-  }
-  
-@-webkit-keyframes discord {
-    from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-    }
-    to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-    }
+    outline: 0;
+    position: relative;
+    font-size: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid #4b00ff;
+    background: #4b00ff;
+    color: #fff;
+    font-weight: 500;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.discord:hover {
+    background-color: #4b00ff;
+    color: #fff;
+    box-shadow: 0 0 5px #4b00ff,
+            0 0 20px rgb(75 0 255 / 0.8),
+            0 0 35px rgb(75 0 255 / 0.7),
+            0 0 50px rgb(75 0 255 / 0.6);
+    border-color: #fff;
+}
+
+.channel {
+    text-align: center;
+    outline: 0;
+    position: relative;
+    font-size: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid red;
+    background: red;
+    color: #fff;
+    font-weight: 500;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+
+.channel:hover {
+    background-color: red;
+    color: #fff;
+    box-shadow: 0 0 5px red,
+            0 0 20px rgb(75 0 255 / 0.8),
+            0 0 35px rgb(75 0 255 / 0.7),
+            0 0 50px rgb(75 0 255 / 0.6);
+    border-color: #fff;
+}
+
+.github {
+    text-align: center;
+    outline: 0;
+    position: relative;
+    font-size: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid aqua;
+    background: aqua;
+    color: #fff;
+    font-weight: 500;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+
+.github:hover {
+    background-color: aqua;
+    color: #fff;
+    box-shadow: 0 0 5px aqua,
+            0 0 20px rgb(75 0 255 / 0.8),
+            0 0 35px rgb(75 0 255 / 0.7),
+            0 0 50px rgb(75 0 255 / 0.6);
+    border-color: #fff;
 }
