@@ -29,6 +29,7 @@ body {
 }
 
 .discord {
+    text-align: center;
     outline: 0;
     position: absolute;
     display: inline-block;
@@ -53,6 +54,7 @@ body {
 }
 
 .channel {
+    text-align: center;
     outline: 0;
     position: relative;
     display: inline-block;
@@ -77,6 +79,7 @@ body {
 }
 
 .github {
+    text-align: center;
     outline: 0;
     position: relative;
     display: inline-block;
